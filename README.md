@@ -5,7 +5,11 @@ This uses node to take a folder of images (`./src`), and exports them to
 
 ## Setup
 
-[Node.js](https://nodejs.org/en/) is required. Once that’s installed, run
+[Node.js](https://nodejs.org/en/) is required. If you’re on Mac, install
+[Homebrew](https://brew.sh/)) and then run `brew install node` from a Terminal.
+
+Once that’s installed, navigate to this directory (`cd ~/sites/batch-svg` or
+wherever you have it). Run:
 
 ```
 npm i
