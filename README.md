@@ -6,23 +6,24 @@ This uses node to take a folder of images (`./src`), and exports them to
 ## Setup
 
 [Node.js](https://nodejs.org/en/) is required. If you’re on Mac, install
-[Homebrew](https://brew.sh/)) and then run `brew install node` from a Terminal.
+[Homebrew](https://brew.sh/) and then run `brew install node` from a Terminal.
 
-Once that’s installed, navigate to this directory (`cd ~/sites/batch-svg` or
-wherever you have it). Run:
+Navigate to this directory:
+```
+cd ~/sites/batch-svg
+```
+…or wherever you have it. Then run:
 
 ```
 npm i
 ```
 
-to install the required modules (you can also use `yarn`
-([yarnpkg.com](https://yarnpkg.com/en/)) instead if you prefer).
+_Note: you can use [`yarn`](https://yarnpkg.com/en/) if you prefer._
 
 ## Usage
 
-First, place images in the `./src` folder.
-
-Then, run
+First, place images in the `./src` folder (can be JPG, GIF, or PNG). Then,
+run:
 
 ```
 npm run layout
