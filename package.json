@@ -1,0 +1,25 @@
+{
+  "name": "batch-svg",
+  "version": "0.0.1",
+  "description": "Takes a folder of images and lays them out in an SVG grid.",
+  "main": "index.js",
+  "engines": {
+    "node": "7.9.0"
+  },
+  "scripts": {
+    "layout": "node index.js"
+  },
+  "author": "drew@pow.rs",
+  "license": "ISC",
+  "devDependencies": {
+    "datauri": "^1.0.5",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "file-base64": "^1.0.0",
+    "glob": "^7.1.1",
+    "image-size": "^0.5.1",
+    "nunjucks": "^3.0.0"
+  }
+}

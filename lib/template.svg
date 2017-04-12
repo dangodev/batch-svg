@@ -1,0 +1,5 @@
+<svg version="1.1" viewBox="{{ viewBox }}" xmlns="http://www.w3.org/2000/svg">
+{% for image in images %}
+  <image height="{{ image.height }}" width="{{ image.width }}" x="{{ image.x }}" xlink:href="{{ image.src }}" y="{{ image.y }}"></image>
+{% endfor %}
+</svg>
