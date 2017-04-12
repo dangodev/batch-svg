@@ -32,7 +32,7 @@ function layout () {
 
   // 1. Get all files in ./src folder matching the following extensions
 
-  glob('./src/**/*.{jpg, jpeg, gif, png}', (err, files) => {
+  glob('./src/**/*.{jpg,jpeg,gif,png}', (err, files) => {
 
     // 2. Calculate widths, heights, and image data of all images using the ImageSize library.
 
