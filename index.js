@@ -34,6 +34,11 @@ function layout () {
 
   glob('./src/**/*.{jpg,jpeg,gif,png}', (err, files) => {
 
+    if (files.length === 0) {
+      console.error('🤷 Error: no images (JPG, GIF, PNG) found in src/');
+      return false;
+    }
+
     // 2. Calculate widths, heights, and image data of all images using the ImageSize library.
 
     let images = files.map(fileName => { // map() loops through an array and modifies it (we’re changing “images” here)
@@ -92,7 +97,7 @@ function layout () {
       })
     );
 
-    console.log('Done!'); // 🎉
+    console.log(`🎁 Processed ${images.length} images and saved to dist/layout.svg.`); // 🎉
   });
 }
 
