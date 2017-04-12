@@ -32,7 +32,7 @@ function layout () {
 
   // 1. Get all files in ./src folder matching the following extensions
 
-  glob('./src/**/*.{jpg,jpeg,gif,png}', (err, files) => {
+  glob('./src/**/*.{bmp,jpg,jpeg,gif,png}', (err, files) => {
 
     if (files.length === 0) {
       console.error('🤷 Error: no images (JPG, GIF, PNG) found in src/');
